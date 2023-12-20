@@ -39,7 +39,10 @@ function App() {
 
           <h2 className="fw-bold">Buy my domain</h2>
 
-          <h1 className="fw-bold text-uppercase py-5 text-primary">{host}</h1>
+          <h1 className="fw-bold text-uppercase py-5 text-primary">
+            <span className="text-white">[</span> {host}{" "}
+            <span className="text-white">]</span>
+          </h1>
 
           <p className="lead">
             Contact me{" "}
